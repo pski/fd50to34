@@ -16,7 +16,7 @@ http://nemesis.lonestar.org/computers/tandy/hardware/model16_6000/floppyfix.html
 
 ![](pics/fd50to34-top.png?raw=true)
 
-![](pics/fd50to34-bottom.png?raw=true)
+![](pics/fd50to34-bot.png?raw=true)
 
 ## JP1: Double-sided media detect
 
