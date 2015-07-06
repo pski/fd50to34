@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-16 BZR 5324)-product   date = Sunday, July 05, 2015 'PMt' 06:41:45 PM
+
+BeginCmp
+TimeStamp = /5599A201;
+Reference = J1;
+ValeurCmp = FD50;
+IdModule  = NF6X_Connectors:Wurth_61205022121;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599A355;
+Reference = J2;
+ValeurCmp = FD34;
+IdModule  = NF6X_Connectors:Wurth_61203422121;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599D454;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599D6D5;
+Reference = JP2;
+ValeurCmp = JUMPER3;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599D589;
+Reference = JP3;
+ValeurCmp = JUMPER3;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599DC9A;
+Reference = R1;
+ValeurCmp = 0;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599E489;
+Reference = R2;
+ValeurCmp = 0;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599E4A9;
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599E4D0;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+EndListe

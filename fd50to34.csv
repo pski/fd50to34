@@ -1,0 +1,6 @@
+Reference, Quantity, Value, Footprint, Datasheet, PartNum
+J1 ,1,FD50,NF6X_Connectors:Wurth_61205022121,,61205022121
+J2 ,1,FD34,NF6X_Connectors:Wurth_61203422121,,61203422121
+JP1 ,1,JUMPER,Pin_Headers:Pin_Header_Angled_1x02,
+JP2 JP3 ,2,JUMPER3,Pin_Headers:Pin_Header_Angled_1x03,
+R1 R2 R3 R4 ,4,0,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,
