@@ -5,18 +5,18 @@ This board is a cable adapter to allow 3.5" or 5.25" floppy disk drives to be co
 
 http://nemesis.lonestar.org/computers/tandy/hardware/model16_6000/floppyfix.html
 
-![](pics/fd50to35-assembled.png?raw=true)
+![](pics/fd50to34-assembled.png?raw=true)
 
-Features include:
+## Features
 
 * Jumper-selectable double-sided disk support.
 * Jumper selection allows drive motors to be strapped on all the time, or controlled by either the head load or in-use/door-lock signal.
 * Bank of shorted resistor footprints allows easy drive select number remapping.
 * Drive signals are labeled on bottom of board for debugging purposes.
 
-![](pics/fd50to35-top.png?raw=true)
+![](pics/fd50to34-top.png?raw=true)
 
-![](pics/fd50to35-bottom.png?raw=true)
+![](pics/fd50to34-bottom.png?raw=true)
 
 ## JP1: Double-sided media detect
 
