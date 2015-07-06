@@ -12,7 +12,7 @@ encoding utf-8
 Sheet 1 1
 Title "fd50to34: Adapt 34 pin floppy drives to 50 pin controllers"
 Date "2015-07-05"
-Rev "1.0"
+Rev "2.0-DRAFT"
 Comp "Mark J. Blair <nf6x@nf6x.net>"
 Comment1 "https://github.com/NF6X/fd50to34"
 Comment2 ""
