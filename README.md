@@ -18,6 +18,10 @@ http://nemesis.lonestar.org/computers/tandy/hardware/model16_6000/floppyfix.html
 
 ![](pics/fd50to34-bot.png?raw=true)
 
+## Schematic Diagram
+
+![](fd50to34.pdf)
+
 ## JP1: Double-sided media detect
 
 Install a jumper at JP1 to enable double-sided disk support. If any single-sided disks will be used, remove this jumper while accessing them, since installing this jumper makes the controller think that all drives are reporting double-sided media.
