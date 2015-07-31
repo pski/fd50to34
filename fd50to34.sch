@@ -11,8 +11,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "fd50to34: Adapt 34 pin floppy drives to 50 pin controllers"
-Date "2015-07-05"
-Rev "2.0-DRAFT"
+Date "2015-07-30"
+Rev "2.0"
 Comp "Mark J. Blair <nf6x@nf6x.net>"
 Comment1 "https://github.com/NF6X/fd50to34"
 Comment2 ""
@@ -72,29 +72,27 @@ NoConn ~ 3250 2700
 NoConn ~ 3250 2800
 NoConn ~ 3250 3600
 NoConn ~ 7750 3400
-NoConn ~ 7750 3300
 NoConn ~ 3250 3000
-NoConn ~ 3250 2500
 $Comp
 L JUMPER JP1
 U 1 1 5599D454
-P 3900 2150
-F 0 "JP1" H 3900 2300 60  0000 C CNN
-F 1 "JUMPER" H 3900 2070 40  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 3900 2150 60  0001 C CNN
-F 3 "" H 3900 2150 60  0000 C CNN
-	1    3900 2150
+P 4150 2150
+F 0 "JP1" H 4150 2300 60  0000 C CNN
+F 1 "JUMPER" H 4150 2070 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 4150 2150 60  0001 C CNN
+F 3 "" H 4150 2150 60  0000 C CNN
+	1    4150 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR03
 U 1 1 5599D494
-P 4300 2300
-F 0 "#PWR03" H 4300 2050 60  0001 C CNN
-F 1 "GND" H 4300 2150 60  0000 C CNN
-F 2 "" H 4300 2300 60  0000 C CNN
-F 3 "" H 4300 2300 60  0000 C CNN
-	1    4300 2300
+P 4550 2300
+F 0 "#PWR03" H 4550 2050 60  0001 C CNN
+F 1 "GND" H 4550 2150 60  0000 C CNN
+F 2 "" H 4550 2300 60  0000 C CNN
+F 3 "" H 4550 2300 60  0000 C CNN
+	1    4550 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -134,7 +132,7 @@ Text Notes 1500 5550 0    100  ~ 0
 8" Floppy Drive Controller
 Text Notes 7500 5500 0    100  ~ 0
 3.5"/5.25" Floppy Drive(s)
-Text Notes 3000 1900 0    100  ~ 0
+Text Notes 3550 1900 0    100  ~ 0
 Short for double-sided\ndrive mode. Open for ANY\nsingle-sided activity on bus.
 Text Notes 6100 1750 0    100  ~ 0
 Motor Control\nConfiguration
@@ -347,15 +345,9 @@ Wire Wire Line
 Wire Wire Line
 	5550 4900 7750 4900
 Wire Wire Line
-	3250 2900 3450 2900
+	4450 2150 4550 2150
 Wire Wire Line
-	3450 2900 3450 2150
-Wire Wire Line
-	3450 2150 3600 2150
-Wire Wire Line
-	4200 2150 4300 2150
-Wire Wire Line
-	4300 2150 4300 2300
+	4550 2150 4550 2300
 Wire Wire Line
 	6900 2250 6900 4000
 Wire Wire Line
@@ -460,4 +452,54 @@ Wire Notes Line
 	3650 6750 3650 4850
 Wire Notes Line
 	3650 4850 5150 4850
+$Comp
+L JUMPER3 JP4
+U 1 1 55BA433A
+P 7800 2150
+F 0 "JP4" H 7850 2050 40  0000 L CNN
+F 1 "JUMPER3" H 7800 2250 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 7800 2150 60  0001 C CNN
+F 3 "" H 7800 2150 60  0000 C CNN
+	1    7800 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 55BA44B8
+P 7800 2450
+F 0 "#PWR05" H 7800 2200 60  0001 C CNN
+F 1 "GND" H 7800 2300 60  0000 C CNN
+F 2 "" H 7800 2450 60  0000 C CNN
+F 3 "" H 7800 2450 60  0000 C CNN
+	1    7800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3300 7600 3300
+Wire Wire Line
+	7600 3300 7600 3000
+Wire Wire Line
+	7600 3000 8100 3000
+Wire Wire Line
+	8100 3000 8100 2150
+Wire Wire Line
+	8100 2150 7900 2150
+Wire Wire Line
+	7800 2400 7800 2450
+Wire Wire Line
+	3250 2900 3750 2900
+Wire Wire Line
+	3750 2900 3750 2150
+Wire Wire Line
+	3750 2150 3850 2150
+Wire Wire Line
+	3250 2500 3350 2500
+Wire Wire Line
+	3350 2500 3350 1300
+Wire Wire Line
+	3350 1300 7800 1300
+Wire Wire Line
+	7800 1300 7800 1900
+Text Notes 8150 2250 0    100  ~ 0
+Density Select
 $EndSCHEMATC
