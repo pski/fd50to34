@@ -1,3 +1,7 @@
+# v2.1 MacroFab updates
+
+* Revised component values for MacroFab BOM extraction.
+
 # v2 PCB changes
 
 * Silkscreen correction.
