@@ -4,10 +4,10 @@ last_client=kicad
 version=1
 [eeschema]
 version=1
-LibDir=/Volumes/homes/mblair/KiCad-NF6X-Libs/library
+LibDir=${KINF6XLIB}/library
 [eeschema/libraries]
 LibName1=Switches
-LibName2=/Volumes/homes/mblair/KiCad-NF6X-Libs/library/Connectors
+LibName2=${KINF6XLIB}/library/Connectors
 LibName3=power
 LibName4=conn
 LibName5=device

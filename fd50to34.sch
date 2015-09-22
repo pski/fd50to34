@@ -11,8 +11,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "fd50to34: Adapt 34 pin floppy drives to 50 pin controllers"
-Date "2015-08-19"
-Rev "2.1"
+Date "2015-09-22"
+Rev "3.0"
 Comp "Mark J. Blair <nf6x@nf6x.net>"
 Comment1 "https://github.com/NF6X/fd50to34"
 Comment2 ""

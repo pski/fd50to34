@@ -1,3 +1,7 @@
+# v3.0 OSHW Logo Removal
+
+* Removed OSHW logo from PCB silkscreen.
+
 # v2.1 MacroFab updates
 
 * Revised component values for MacroFab BOM extraction.
